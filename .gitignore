@@ -12,6 +12,7 @@
 *.so
 *.dylib
 *.dll
+*.dSYM/
 
 # compiled static libraries
 *.lai
