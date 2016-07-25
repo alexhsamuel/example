@@ -89,15 +89,6 @@ public:
 
 private:
 
-  Result(
-    R&& res, 
-    E&& err, 
-    bool const ok)
-  : res_(res),
-    err_(err),
-    ok_(ok)
-  {}
-
   R res_;
   E err_;
   bool ok_;
